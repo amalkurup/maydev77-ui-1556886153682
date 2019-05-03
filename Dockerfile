@@ -24,4 +24,4 @@ EXPOSE 8080
 
 USER appuser
 
-CMD [ "npm", "start --port=8080" ]
+CMD [ "npm", "start --port:8080" ]
